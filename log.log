@@ -1,0 +1,61 @@
+============================================================
+🚀 基金实时估值服务启动中...
+============================================================
+✅ 加载了 1 个基金持仓
+📊 正在初始化缓存数据...
+🔄 正在获取基金估值数据...
+✅ 成功获取 1 个基金数据
+✅ 缓存已更新 (1 个基金)
+⏰ 启动后台自动更新线程（每60秒）...
+🔄 正在获取基金估值数据...
+============================================================
+✅ 服务已启动！
+📍 API地址: http://localhost:5000
+📖 API文档:
+   - GET  /api/funds       获取所有基金
+   - POST /api/funds/add   添加基金
+   - PUT  /api/funds/update/<id>  更新基金
+   - DELETE /api/funds/delete/<id> 删除基金
+   - GET  /api/summary     获取汇总
+   - POST /api/refresh     手动刷新
+============================================================
+ * Serving Flask app 'fund_service'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8899
+ * Running on http://172.25.120.206:8899
+Press CTRL+C to quit
+127.0.0.1 - - [02/Feb/2026 14:07:06] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:07:06] "GET /api/summary HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:07:14] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:07:14] "GET /api/summary HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:07:19] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:07:19] "GET /api/summary HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:08:14] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:08:14] "GET /api/summary HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:08:18] "OPTIONS /api/funds/add HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:08:20] "POST /api/funds/add HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:08:20] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:08:20] "GET /api/summary HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:09:14] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:09:14] "GET /api/summary HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:09:22] "OPTIONS /api/funds/add HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:09:25] "POST /api/funds/add HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:09:25] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:09:25] "GET /api/summary HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:09:42] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:09:42] "GET /api/summary HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:09:51] "POST /api/refresh HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:09:51] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:09:51] "GET /api/summary HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:10:42] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:10:42] "GET /api/summary HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:11:42] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:11:42] "GET /api/summary HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:12:42] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:12:42] "GET /api/summary HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:13:42] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:13:42] "GET /api/summary HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:14:42] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [02/Feb/2026 14:14:42] "GET /api/summary HTTP/1.1" 200 -

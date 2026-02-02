@@ -1,0 +1,4 @@
+flask==3.0.0
+flask-cors==4.0.0
+akshare==1.14.24
+pandas==2.2.0
